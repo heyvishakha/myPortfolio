@@ -1,133 +1,70 @@
-
-
-
+<!DOCTYPE html>
 <html lang="en">
-<head>
 
-  <link rel="stylesheet" href="first.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
+  <!-- TOP SECTION -->
+  <h1>Vishakha</h1>
+  <p>Frontend Developer | HTML | CSS | JavaScript</p>
 
-  
-<!--DOCTYPE html>
+  <h2>Projects</h2>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CARDS -->
+  <div class="container">
 
-    <title>MyPage</title>
+    <div class="box">
+      <h3>Frontend Journey</h3>
+      <p id="text1">Frontend Learning</p>
+      <img src="Focus.JPG">
+      <button onclick="changeText1()">Know More</button>
+    </div>
 
-    <h1>Vishakha</h1>
+    <div class="box">
+      <h3>Mindset</h3>
+      <p id="text2">My Era</p>
+      <img src="me.jpg">
+      <button onclick="changeText2()">Know More</button>
+    </div>
 
-    <p>I am currently learning frontend development. 
-I enjoy building websites and improving my skills step by step. 
-I want to build a strong career in software development.</p>
+    <div class="box">
+      <h3>Goals</h3>
+      <p id="text3">Manifesting</p>
+      <img src="manifest.jpg">
+      <button onclick="changeText3()">Know More</button>
+    </div>
 
-<h2>My Goals</h2>
-
-<ol>
-    <li>Move to Germany</li>
-    <li>Get a good job in my field</li>
-  <li>Travel and explore the world</li>
-</ol>
-
-
-
-
-
-
-  <div class="card"></div>
-    <img src="vision.JPG" width="300">
-
-<div class="card">
-
-    <h1>Vishakha</h1>
-
-    <p id="text"> I am learning frontend development and building my skills step by step.
-    </p>
-
-    <h2>My Goals</h2>
-
-    <ol>
-      <li>Move to Germany</li>
-      <li>Get a job</li>
-      <li>Travel the world</li>
-    </ol>
-
-    <img src="vision.JPG">
-
-    <button onclick="showmessage()">Contact Me</button>
   </div>
 
+  <!-- JS (ONLY ONE PLACE) -->
   <script>
-    function showmessage() {
-      alert("Hello! Thanks for visiting my page:)");
+    function changeText1() {
+      document.getElementById("text1").innerHTML =
+        "Learning HTML, CSS, and JavaScript step by step to build real-world projects";
+    }
+
+    function changeText2() {
+      document.getElementById("text2").innerHTML =
+        "Focused on growth, discipline, and consistency";
+    }
+
+    function changeText3() {
+      document.getElementById("text3").innerHTML =
+        "Aim to work abroad, build strong skills, and explore the world";
     }
   </script>
+
+</body>
+</html>
+
+
+
+   
+
   
 
-
-
-
-
- <div>
-    <h1>Vishakha</h1>
-    <p>Frontend Learner</p>
-
-    <img src="vision.JPG">
-  </div>
--->
-
-
-
-<h1>Vishakha</h1>
-<p>Frontend Developer in Progress 🚀</p>
-<h2>My Work</h2>
-
-<div class="container">
-
-  <div class="box">
-    <h2>Frontend Journey</h2>
-    <b><p id="text1">Frontend Learning</p></b>
-     <img src="Focus.JPG">
-
-     <button onclick="changeText1()">Card 1</button>
-
-     <script>
-    function changeText1() {
-      document.getElementById("text1").innerHTML = "Learning HTML, CSS, and JavaScript step by step to build real-world projects";
-    }
-  </script>
-</div>
-
-  <div class="box">
-    <h2>Mindset</h2>
-    <b><p id="text2">My Era</p></b>
-     <img src="me.Jpg">
-
-     <button onclick="changeText2()">Card 2</button>
-
-     <script>
-    function changeText2() {
-      document.getElementById("text2").innerHTML = "Focused on growth, discipline, and consistency ";
-    }
-  </script>
-  </div>
-
-  <div class="box">
-    <h2>Goals</h2>
-    <b><p id="text3">Manfesting</p></b>
-     <img src="manifest.JPG">
-
-     <button onclick="changeText3()">Card 3</button>
-
-     <script>
-    function changeText3() {
-      document.getElementById("text3").innerHTML = "Aim to work abroad build strong skills and explore the world";
-    }
-  </script>
-  </div>
-
-</div>
-</body>
