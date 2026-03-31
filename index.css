@@ -99,20 +99,24 @@ button {
 .box:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0,0,0,0,2);
+     transform: translateY(-10px);
 }
 
 body {
     background-color: #eaeaea;
     text-align: center;
-    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
 }
 
 h1 {
     color: darkblue;
     margin-top: 30px;
-
-
 }
+
+h2 {
+  margin-top: 20px;
+}
+
 
 P {
     color: #333;
@@ -129,10 +133,17 @@ img {
 
 button {
     color: white;
-    background-color: black;
-    width: 90px;
+    background-color:#1e88e5;
+   border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
      
    
+}
+
+button:hover {
+  background-color: #1565c0;
 }
 
 
