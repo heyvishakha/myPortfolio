@@ -130,21 +130,18 @@ img {
     border-radius: 10px;
 }
 
-
 button {
-    color: white;
-    background-color:#1e88e5;
-   border: none;
-  padding: 8px 15px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
   border-radius: 5px;
-  cursor: pointer;
-     
-   
 }
 
 button:hover {
-  background-color: #1565c0;
+  background-color: darkgreen;
 }
+
 
 nav {
   display: flex;
@@ -172,6 +169,8 @@ nav a:hover {
 html {
   scroll-behavior: smooth;
 }
+
+
 
 
 
