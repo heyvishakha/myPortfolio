@@ -169,6 +169,9 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 
